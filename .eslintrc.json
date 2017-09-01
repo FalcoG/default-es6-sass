@@ -1,0 +1,24 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "indent": ["error", 4, {"SwitchCase": 1}],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+
+    "comma-dangle": ["error", "always-multiline"],
+    "no-cond-assign": ["error", "always"],
+
+    "no-console": "off",
+    "array-bracket-spacing": ["error", "never"]
+  },
+  "env": {
+    "browser": true
+  }
+}
