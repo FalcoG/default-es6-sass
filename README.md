@@ -7,7 +7,7 @@ This repository contains:
 
 
 ## Setting up the project
-1. Duplicate the repository without forking [as explained here](https://github.com/FalcoG/modern-web-template.git)
+1. Duplicate the repository without forking [as explained here](https://help.github.com/articles/duplicating-a-repository/)
 2. Install Node.JS
 3. Run `npm install` within the project directory
 4. To compile files, run either `npm run gulp-watch` for development or `npm run gulp-build` for deployment
